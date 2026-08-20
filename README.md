@@ -26,7 +26,9 @@ CLAUDE.md            Loads automatically. ADHD comms rules, skill routing, quali
 install.sh           Installs the rules + agents + commands machine-wide.
 brain/               Your voice profile, your keepers, your do-not-write list.
 shows/               One folder per show. The canon.
-skills/              Backup of your 8 custom skills. They lived in one place before this.
+skills/              Backup of your 8 custom skills, exactly as they are on your account.
+skills-updated/      The improved versions, plus CHANGELOG.md listing every change.
+dist/                Those 8 as installable .skill files.
 docs/                Agents vs Projects. Loops and credits. Cheat sheet.
 .claude/agents/      7 specialists with their own context windows.
 .claude/commands/    9 slash commands.

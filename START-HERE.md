@@ -52,6 +52,10 @@ Three short docs. Read them when you want to, not now.
 - [Loops, and how to actually save credits](docs/2-loops-and-credits.md).
   Short answer: **the canon files save more than any loop does.**
 - [Cheat sheet](docs/3-cheat-sheet.md). One page, everything.
+- [Project instructions, ready to paste](docs/4-project-instructions.md).
+  Three templates for your chat Projects.
+- [What changed in your skills](skills-updated/CHANGELOG.md).
+  Read before installing anything from `dist/`.
 
 ---
 
