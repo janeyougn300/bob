@@ -75,6 +75,10 @@ output came back worse, and it was never about the skill or the model.
 `shows/` is the missing half. Fill a show's canon once, and every session after that
 starts where your chat Projects start.
 
+Separately: your eight custom skills are now backed up in `skills/`. Before today they
+existed only on your Anthropic account. They are yours and you should have a copy.
+See [skills/README.md](skills/README.md).
+
 ---
 
 **Right now, do this:** run `/ideas` and describe a show you have been thinking about.

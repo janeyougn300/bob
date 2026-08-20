@@ -1,0 +1,58 @@
+[
+  {
+    "skillId": "skill_01ARBahc4X3LfajAmvBK3bY7",
+    "name": "i-have-adhd",
+    "description": "Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, make wins visible. Invoke with /i-have-adhd; stays on until \"stop adhd mode\".",
+    "source": "custom",
+    "updatedAt": "2026-08-17T17:50:55.484609Z"
+  },
+  {
+    "skillId": "skill_015H3FcHQ5Qo6CceeMmZmr4j",
+    "name": "vertical-script-editor",
+    "description": "Runs script-editor work on vertical micro-drama (ReelShort, DramaBox and similar 60 to 90 second paywalled episode formats) against a fixed rule set rather than general taste. Use when auditing or giving coverage on a vertical script, episode, or season outline; drafting or punching up an episode; building or fixing an episode grid or beat sheet; generating and scoring hooks or cold opens; deciding where the paywall or ad gate goes; diagnosing why a run scrolls, why episodes feel like filler, why exits do not convert, or why a villain has run out of pressure; or staging a beat for a 9:16 frame. Trigger on requests like audit this episode, is this hook strong, where should the gate go, why is retention dropping at episode nine, this season sags in the middle, or score these openings.",
+    "source": "custom",
+    "updatedAt": "2026-08-05T20:22:45.290868Z"
+  },
+  {
+    "skillId": "skill_01SSkh6zGdqx7qdk47KS9B9f",
+    "name": "prestige-slate-deck",
+    "description": "Builds and art-directs executive-facing slate decks, series pitch decks, one-sheets, and presentations for vertical micro-drama (ReelShort, DramaBox and similar) in an HBO/Showtime prestige-cable visual system. Use this skill whenever the user mentions a deck, pitch deck, slate deck, presentation, slides, PowerPoint, Google Slides, one-sheet, leave-behind, or pitching a show or slate to executives, studios, or platforms, even if they don't name the format or ask for design help. Also use when the user asks to rewrite a synopsis or logline for a deck, write a 'why we pick it' or greenlight rationale, or make a deck look more premium, cinematic, or expensive.",
+    "source": "custom",
+    "updatedAt": "2026-08-17T17:12:17.301259Z"
+  },
+  {
+    "skillId": "skill_01KBBtGRLv4ARXu53d3XdcaQ",
+    "name": "microdrama-pitch-data",
+    "description": "Supplies, verifies, and formats the market data, comps, trope taxonomy, unit economics, and greenlight rationale for vertical micro-drama pitches (ReelShort, DramaBox, ShortMax, Netshort and similar). Use this skill whenever a pitch, deck, memo, or slide needs market size, revenue figures, CPI, retention, paywall conversion, ARPPU, ROI, per-series licensing prices, comparable titles, trope tags, or a 'why greenlight this' argument. Also use whenever the user asks whether a concept will perform, how the vertical drama market is doing, what platforms pay, or what tropes are working right now, even if they don't mention a deck.",
+    "source": "custom",
+    "updatedAt": "2026-08-17T17:12:11.221937Z"
+  },
+  {
+    "skillId": "skill_018oKyLynqVfdt4rQwVD868T",
+    "name": "key-art-director",
+    "description": "Directs and generates prestige-cable key art, covers, one-sheets, title treatments, and image-generation prompts for vertical micro-drama titles. Use this skill whenever the user needs cover art, key visuals, poster art, a title card, mood boards, or image prompts for a deck or a title, and whenever they ask how to make artwork look more cinematic, more expensive, or more like HBO or Showtime. Also use when a deck has placeholder image slots that need art direction written for them.",
+    "source": "custom",
+    "updatedAt": "2026-08-17T17:12:05.985821Z"
+  },
+  {
+    "skillId": "skill_01SbhBNuV1oefTNyF8WkGxZH",
+    "name": "rule-foundry",
+    "description": "Mine one screenplay, teleplay, novel, or manuscript for transferable craft rules and file them into a standing rule library. Use when the user attaches a source and asks to extract rules, mine it, run a foundry pass, pull craft rules from it, or produce a rule export. Also use when the user asks to diff a manuscript against its adaptation. Do not use for auditing, punching up, or drafting the user's own work; those are the vertical drama skills.",
+    "source": "custom",
+    "updatedAt": "2026-08-10T20:42:39.397385Z"
+  },
+  {
+    "skillId": "skill_01GZvrPpx5ZhUKhAetGha2ud",
+    "name": "vertical-drama-muse",
+    "description": "The imagination engine for ReelShort-style vertical micro-drama: generates brilliant premises, twists, hooks, and titles; writes prose and dialogue in an addictive, scroll-stopping voice; reimagines flat scenes into electric ones, stealing technique from the best storytellers in every tradition while always shaping output for vertical drama. Use whenever the user asks for ideas, concepts, premises, twists, hooks, loglines, titles, a brainstorm, a \"fresh take,\" or \"something better\"; whenever writing or ideas feel flat, generic, boring, clich\u00e9, predictable, or \"sound like AI\"; whenever a scene needs punching up from mediocre to gripping, or an opening needs a voice that stops the scroll. Trigger even on vague creative dissatisfaction (\"this isn't hooking,\" \"the ideas are meh,\" \"give me magic\"). Companion to vertical-drama-showrunner: that skill audits structure, retention, and economics; this one invents the ideas and writes the voice. When drafting new material, use both together.",
+    "source": "custom",
+    "updatedAt": "2026-07-31T00:50:01.760723Z"
+  },
+  {
+    "skillId": "skill_01PZGECWhvpxSwdJgxPgMFxn",
+    "name": "vertical-drama-showrunner",
+    "description": "Turns Claude into an elite showrunner, script editor, producer, and marketing/retention strategist for HBO/Showtime-tone vertical micro-dramas built for ReelShort-style platforms (also covers DramaBox and similar apps). Use this whenever the user is drafting or punching up scenes, episodes, or beats for a vertical short drama; adapting a novel or manuscript into a vertical season; auditing a draft (their own or a collaborator's) for hook strength, AI-speak, or mobile pacing; planning paywall/CPI gate placement; writing scene descriptions for an AI video pipeline; or asking what's currently working in the vertical drama market right now. Also trigger on open-ended asks like \"is this concept good,\" \"what should I do with this manuscript,\" or \"will this hook,\" even without an explicit format or platform named. This is a specialized skill for vertical, mobile-first, paywalled micro-drama economics, not general fiction writing.",
+    "source": "custom",
+    "updatedAt": "2026-07-31T00:39:12.282616Z"
+  }
+]
