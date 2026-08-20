@@ -6,6 +6,7 @@
 #   - the ADHD output rules, into ~/.claude/CLAUDE.md   (so Claude talks right everywhere)
 #   - the 7 writing agents,   into ~/.claude/agents/
 #   - the 9 slash commands,   into ~/.claude/commands/
+#   - the 8 updated skills,   into ~/.claude/skills/
 #
 # Run it:   bash install.sh
 # Undo it:  bash install.sh --uninstall
@@ -38,6 +39,16 @@ if [[ "${1:-}" == "--uninstall" ]]; then
       done < <(find "${REPO}/.claude/${d}" -maxdepth 1 -name '*.md')
     fi
   done
+
+  if [[ -d "${REPO}/.claude/skills" ]]; then
+    while IFS= read -r s; do
+      name="$(basename "$s")"
+      if [[ -d "${DEST}/skills/${name}" ]]; then
+        rm -rf "${DEST}/skills/${name}"
+        say "  removed skills/${name}"
+      fi
+    done < <(find "${REPO}/.claude/skills" -mindepth 1 -maxdepth 1 -type d)
+  fi
 
   if [[ -f "${DEST}/CLAUDE.md" ]] && grep -q "${MARK_START}" "${DEST}/CLAUDE.md"; then
     cp "${DEST}/CLAUDE.md" "${DEST}/CLAUDE.md.backup-${STAMP}"
@@ -86,6 +97,30 @@ done
 
 say "  ${copied_agents} agents installed"
 say "  ${copied_commands} commands installed"
+
+# --- skills --------------------------------------------------------------
+# The updated versions of the 8 custom skills. Same names as the ones synced
+# from the account, so these take precedence wherever both are visible.
+
+copied_skills=0
+
+if [[ -d "${REPO}/.claude/skills" ]]; then
+  mkdir -p "${DEST}/skills"
+  while IFS= read -r s; do
+    name="$(basename "$s")"
+    target="${DEST}/skills/${name}"
+    if [[ -d "$target" ]] && ! diff -rq "$s" "$target" >/dev/null 2>&1; then
+      rm -rf "${target}.backup-${STAMP}"
+      cp -r "$target" "${target}.backup-${STAMP}"
+      say "  backed up existing skills/${name}"
+    fi
+    rm -rf "$target"
+    cp -r "$s" "$target"
+    copied_skills=$((copied_skills + 1))
+  done < <(find "${REPO}/.claude/skills" -mindepth 1 -maxdepth 1 -type d | sort)
+fi
+
+say "  ${copied_skills} skills installed"
 
 # --- the ADHD block ------------------------------------------------------
 # Pulled live from CLAUDE.md section 1 so the two never drift apart.
@@ -143,6 +178,12 @@ say "Now works in every project on this machine:"
 say "  - Claude leads with the action, numbers steps, and skips the padding"
 say "  - /ideas /new-show /grid /write /audit /hooks /art /brief /save"
 say "  - the 7 writing agents"
+say "  - the 8 updated skills, including the ADHD one that now turns itself on"
+say ""
+say "This covers Claude Code only. Claude chat on the web reads skills from your"
+say "account, which nothing here can write to. For chat, install the .skill files"
+say "in dist/ using the Save skill button, and paste docs/4-project-instructions.md"
+say "into your Projects."
 say ""
 say "Show canon still lives in THIS repo, under shows/. That part is deliberate."
 say "Canon is per-show, not global, and the skills expect it that way."
