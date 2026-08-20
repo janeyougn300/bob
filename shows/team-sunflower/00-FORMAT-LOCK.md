@@ -14,7 +14,7 @@ platform and studio and they move. Fill them in before anyone drafts a line.
 | Platform | **ReelShort** (Crazy Maple Studios) |
 | Language of origin | OPEN |
 | Dub / translation targets | OPEN |
-| Contracted episode count | **RANGE: 50 to 100.** Needs one number. |
+| Contracted episode count | **PROPOSED: 40.** House precedent, see below. Confirm. |
 | Delivery deadline | OPEN |
 | Who has final approval | OPEN |
 
@@ -22,12 +22,54 @@ platform and studio and they move. Fill them in before anyone drafts a line.
 
 | Field | Value |
 |---|---|
-| Runtime per episode | **RANGE: 1 to 3 minutes.** Needs one number. See the note below. |
+| Runtime per episode | **PROPOSED: 90 seconds.** From house precedent, see below. Confirm. |
 | Word count per episode | OPEN. Follows from runtime. |
-| Episodes in the free block | OPEN |
-| Gate episode | OPEN |
+| Episodes in the free block | **PROPOSED: 12 to 14.** From house precedent. Confirm. |
+| Gate episode | **PROPOSED: 12 to 14.** From house precedent. Confirm. |
 | Second gate, if any | OPEN |
 | Aspect ratio | 9:16 |
+
+> ### Where the proposed numbers came from
+>
+> Not invented, and not a market average. Pulled from *From Best Friend to Fiancé*,
+> whose first season Jane says was approved, in her own Drive file
+> `From Best Friends To Fiance` (Google Doc, modified 15 June 2026):
+>
+> - "The Script Target: **90-second** dual-scene episode." Scene A 30s, scene B 60s.
+> - ~~"Episodes per Season: Season 1: 65 to 75 episodes."~~ **Superseded. See below.**
+> - "**Episode 12 to 14** is the premier conversion gate." Secondary gate 28 to 32.
+>
+> **One caveat, and it matters.** That document is a pre-production analysis of the
+> source novel. It states a *target*, not a delivered spec. An approved season may have
+> landed somewhere else. Before locking, check the runtime of a delivered, approved
+> episode and correct these if they differ. Then log the change below.
+>
+> Everything above is marked PROPOSED for that reason. Drafting stays blocked until
+> Jane confirms, because a target treated as a lock is still a guess wearing a source.
+>
+> ### The delivered season says 40, and it beats the projection
+>
+> Jane named the final approved script:
+> `(final)FBTF_Season 1_EP1-40_07272026(1).pdf`
+>
+> The filename alone settles the episode count. **EP1-40, marked final, dated 27 July
+> 2026.** So season one shipped at **40 episodes**, not the 65 to 75 the pre-production
+> analysis projected. The delivered artifact outranks the projection, so 40 is the
+> number carried above.
+>
+> That is corroborated, not a single data point. The DKSM production reference deck
+> also ends its season at episode 40, calling it "END OF CHAPTER 6-8" from the source
+> novel's own chapter marker. Two shows, both landing at 40, reads as a house shape
+> rather than a coincidence.
+>
+> **The PDF itself has not been read.** It sits on a local Windows desktop under
+> OneDrive, and this session runs in a cloud container with Google Drive access only.
+> Nothing here is quoted from inside that file. Everything above is from the filename
+> and from Drive documents.
+>
+> **Still missing: runtime.** The filename does not carry it, and it is the field that
+> blocks drafting hardest. 90 seconds is the target stated in the FBTF analysis, which
+> makes it the best available guess and still a guess.
 
 > ### The runtime range is the one worth closing first
 >
@@ -86,5 +128,5 @@ Record every change. A changed lock invalidates downstream work.
 | Date | Field changed | Old | New | Who decided |
 |---|---|---|---|---|
 | 2026-08-20 | Platform | blank | ReelShort | Jane |
-| 2026-08-20 | Episode count | blank | range 50 to 100, not yet locked | Jane |
+| 2026-08-20 | Episode count | range 50 to 100 | PROPOSED 40, from delivered FBTF season 1 | precedent |
 | 2026-08-20 | Runtime | blank | range 1 to 3 min, not yet locked | Jane |
