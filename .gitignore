@@ -1,0 +1,13 @@
+# backups created by install.sh
+*.backup-*
+
+# local settings overrides
+.claude/settings.local.json
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# scratch
+/tmp/
+*.tmp
