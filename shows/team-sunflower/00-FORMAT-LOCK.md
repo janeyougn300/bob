@@ -70,6 +70,24 @@ platform and studio and they move. Fill them in before anyone drafts a line.
 > **Still missing: runtime.** The filename does not carry it, and it is the field that
 > blocks drafting hardest. 90 seconds is the target stated in the FBTF analysis, which
 > makes it the best available guess and still a guess.
+>
+> ### Runtime is open because the show is in prep, and that is correct
+>
+> Stop treating this field as an oversight. `sunflower-empire` in Drive marks Empire
+> `待定` (to be determined) and `IN PREP`, original, in talks with Macy Gray and other
+> artists. The deal is not closed.
+>
+> A show that has not been sold does not have a contracted runtime, so there is nothing
+> to write here yet and nothing to go and find. The right value for this field today is
+> OPEN. Filling it from a comparable title would manufacture a lock the production has
+> not agreed to, and every downstream grid cell would inherit that invention.
+>
+> Fill it when the deal closes, not before. Then log it below and re-check any grid work
+> done in the meantime.
+>
+> Until then the block is narrow and everything else is open. Do not let this one empty
+> field stall the show: the list directly below is accurate, and most of the real work
+> sits on the unblocked side of it.
 
 > ### The runtime range is the one worth closing first
 >
